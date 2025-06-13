@@ -24,9 +24,17 @@ A simple React application using Tanstack Query for form handling and data fetch
 2. Install dependencies:
 
 ```bash
+# Install root project dependencies
 npm install
 # or
 pnpm install
+
+# Install server dependencies
+cd server
+npm install
+# or
+pnpm install
+cd ..
 ```
 
 3. Start the development server:
